@@ -1,0 +1,10 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
+@font-face {
+	font-family:"Melbourne";
+	src:url("Melbourne_reg.eot?") format("eot"),
+		url("Melbourne_reg.woff") format("woff"),
+		url("Melbourne_reg.ttf") format("truetype"),
+		url("Melbourne_reg.svg#Melbourne") format("svg");
+		font-weight:normal;
+		font-style:normal;
+}

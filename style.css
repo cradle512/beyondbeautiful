@@ -1,0 +1,801 @@
+@charset "utf-8";
+
+@font-face{
+	font-family: 'Opensans';
+	src:url("../fonts/openSans/OpenSans-Regular.woff");
+}
+
+@font-face{
+	font-family: 'codelight';
+	src:url("../fonts/code-light/code_light.woff");
+}
+
+@font-face{
+	font-family: 'sacramento';
+	src:url("../fonts/sacramento/sacramento-regular.woff");
+}
+
+@font-face{
+	font-family: 'Melbourne';
+	src:url("../fonts/Melbourne/Melbourne_reg.woff");
+}
+
+body, html{
+	height: 100%;
+	background: #f9f9f9;
+}
+
+#contact_header{
+	width: 100%;
+	height: 40px;
+	background-color: #161616;
+	border-bottom: 1px solid #303030;
+	padding-top: 10px;
+}
+
+.navbar-brand{
+	font: 24px 'Melbourne';
+	color: #e9e8ea;
+	padding-left: 40px; 
+	text-align: center;
+	line-height: 21px;
+	margin-top: -5px;
+}
+
+.navbar-brand a:hover{
+	color: #e9e8ea;
+}
+
+.navbar-brand span.subheader{
+	font: 18px 'Melbourne';
+	color: #d2d1d3;
+}
+
+nav.contact ul.nav{
+	margin: 0;
+	padding: 0;
+}
+
+nav.contact ul li{
+	margin: 0 30px 0 30px;
+}
+
+nav.contact ul li a{
+	margin: 0;
+	padding: 0;
+	font: 14px Melbourne;
+	color: #dbdbdb;
+}
+
+nav.contact ul li a:hover{
+	color: #dbdbdb;
+}
+
+#nav-bar{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background-color: #1e1e1e;
+}
+
+nav button .icon-bar{
+	background-color: grey;
+}
+
+.navbar-nav{
+	float: right;
+	text-align: left;
+	margin-top: 20px;
+}
+
+ul.navbar-nav li{
+	list-style: none;
+}
+
+ul.navbar-nav li a{
+	text-decoration: none;
+	font: 18px 'Melbourne';
+	color: #e9e8ea;
+}
+
+ul.navbar-nav li a:hover{
+	text-decoration: none;
+	background: none;
+	color: #0a8d93;
+}
+
+ul.navbar-nav li.active a{
+	color: #0a8d93;
+}
+
+.wrapper{
+	width: 100%;
+	height: 492px;
+	background: url(../images/banner1.jpg) no-repeat center;
+	border-bottom: 1px solid #424242;
+	margin-top: -20px;
+	padding: 0;
+}
+
+header h1{
+	font:bold 30px 'Opensans';
+	color: #f4f4f4;
+	margin-top: 200px;
+	line-height: 10px;
+}
+
+header h3{
+	font: 19px 'Opensans';
+	color: #e0e0e0;
+}
+
+.read_more{
+	float: left;
+	text-align: left;
+	margin-top: 30px;
+}
+
+.read_more a{
+	float: none;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 4px;
+	border: 1px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	padding: 8px;
+}
+
+.read_more a:hover{
+	text-decoration: none;
+}
+
+.about{
+	height: auto;
+	padding: 50px 0;
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.about h2{
+	float: left;
+	width: 100%;
+	text-align: left;
+	font: bold 34px 'Melbourne';
+	color: #474747;
+}
+
+.about p.lead{
+	width: 100%;
+	float: left;
+	text-align: left;
+	font-family: 'Melbourne';
+	color: #444444;
+}
+
+#background{
+	background: #eaeaea;
+	border-bottom: 1px solid #c1c1c1;
+	padding-bottom: 50px; 
+}
+
+.page_header{
+	padding: 50px 0 30px 0;
+}
+
+.page_header h2{
+	text-align: center;
+	font-family: 'Opensans';
+	font-weight: bold;
+	color: #474747;
+}
+
+.services .tab{
+	width: 100%;
+	height: auto;
+	padding: 20px 20px 50px 20px;
+	background-color: #fefeff;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+.services .tab img{
+	float: right;
+	width: 50px;
+	height: 50px;
+}
+
+.services .tab h5{
+	font: bold 16px 'Melbourne';
+	margin-top: 45px;
+	color: #2d2d2d;
+}
+
+.services .tab p{
+	font: 14px 'arial';
+	line-height: 16px;
+	color: #3f3f3f;
+}
+
+.services .tab a{
+	float: right;
+	text-align: right;
+	font: 12px 'arial';
+	text-decoration: none;
+	color: #a8a8a8;
+	border: 1px solid #a8a8a8;
+	border-radius: 5px;
+	margin-top: 8px;
+	padding: 4px;
+}
+
+#salon_details{
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.salon_details{
+	height: auto;
+}
+
+.salon_details img{
+	float: left;
+}
+
+.salon_details h3{
+	text-align: left;
+	font-family: 'Opensans';
+	font-weight: bold;
+	margin: 50px 0 20px 120px;
+}
+
+.salon_details p{
+	text-align: left;
+	font: 16px 'Opensans';
+	margin: 0 0 30px 120px;
+	line-height: 22px;
+}
+
+.salon_prods{
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	margin: 20px 0 0 150px;
+}
+
+.salon_prods img{
+	width: 50px;
+	height: 50px;
+}
+
+.salon_prods p.lead{
+	text-align: left;
+	font: 20px 'Opensans';
+	padding: 0;
+	margin: 0;
+	margin: 0 0 7px 100px;
+}
+
+
+.salon_prods p{
+	text-align: left;
+	font: bold 14px 'codelight';
+	padding: 0;
+	margin: 0;
+	margin: 0 0 0 100px;
+}
+
+#organic_prods{
+	width: 100%;
+	background-color: #e3efe4;
+	border-bottom: 1px solid #c1c1c1;
+	border-top: 1px solid #c1c1c1;
+	padding: 50px 0;
+}
+
+.organic_prods{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.organic_prods h3{
+	text-align: left;
+	font-family: 'Opensans';
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.organic_prods p.lead{
+	text-align: left;
+	font: 16px 'Opensans';
+	line-height: 22px;
+}
+
+.organic_img img.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact_area{
+	width: 100%;
+	height: auto;
+    background-color: #1e1e1e;
+	padding: 40px 0;
+}
+
+#contact_area h2{
+	text-align: center;
+	color: #dbdbdb;
+	margin-bottom: 30px;
+}
+
+#contact_area ul.contacts{
+	margin-left: auto;
+	margin-right: auto;
+	width: 430px;
+}
+
+#contact_area ul li{
+	list-style: none;
+	font: 20px 'Melbourne';
+	line-height: 50px;
+	color: #bfbfbf;
+}
+
+#map{
+	width: 100%;
+	height: 400px;
+	box-shadow: 2px 2px 20px #848484;
+	border-bottom: 1px solid #c1c1c1;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	padding: 47px 0 30px 0;
+	border-top: 1px solid #c1c1c1;
+}
+
+footer ul.footer{
+	text-align: center;
+}
+
+footer ul.footer li{
+	list-style: none;
+}
+
+/********************************* READ MORE SUB PAGE ****************************************/
+
+#read_more .page_header h2{
+
+	text-align: left;
+}
+
+
+/******************************** TREATMENTS SUB PAGE ****************************************/
+
+#subpage_background{
+	background: #eaeaea;
+	border-bottom: 1px solid #c1c1c1;
+	padding-bottom: 100px; 
+	margin-top: -20px;
+}
+
+
+/******************************** PRODUCTS SUB PAGE *****************************************/
+#subpage_products{
+	height: auto;
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.product{
+	margin: 50px 0 60px 0;
+}
+
+.product h3{
+	margin: 50px 0 10px 0;
+}
+
+.product p{
+	font: 16px 'arial';
+	line-height: 20px;
+}
+
+#product_background{
+	height: 2000px;
+	background-color: #f9f9f9;
+	border-top: 1px solid #c1c1c1; 
+	border-bottom: 1px solid #c1c1c1;
+}
+
+.hideme{
+	opacity: 0;
+}
+
+/********************************* CONTACT US ************************************************/
+
+.contact_area{
+	width: 100%;
+	height: auto;
+	padding: 40px 0;
+	margin-bottom: 180px;
+}
+
+#subpage_contact_us header h2{
+	text-align: center;
+	color: #2d2d2d;
+	margin: 30px 0 60px 0;
+}
+
+.contact_details ul.contacts{
+	margin-left: auto;
+	margin-right: auto;
+	width: 430px;
+}
+
+.contact_details ul li{
+	list-style: none;
+	font: 20px 'Melbourne';
+	line-height: 50px;
+	color: #3d3d3d;
+}
+
+.contact_form form{
+	text-align: left;
+}
+
+.contact_form form input{
+	width: 50%;
+	border-radius: 5px;
+	border: 1px solid #cecece;
+	padding: 5px;
+}
+
+.contact_form form textarea{
+	width: 50%;
+	height: 100px;
+	border-radius: 5px;
+	border: 1px solid #cecece;
+	padding: 5px;
+}
+
+.contact_form form input.submit{
+	width: 25%;
+}
+
+/******************************** MEDIA SCREEN MAX WIDTH 768PX ******************************/
+@media(max-width:768px){
+
+	#contact_header{
+		width: 100%;
+		height: auto;
+		background-color: #161616;
+		border-bottom: 1px solid #303030;
+		padding-top: 10px;
+	}
+
+	#contact_header a.navbar-brand{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
+	#nav-bar{
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		background-color: #1e1e1e;
+	}
+	
+	nav a.navbar .navbar-brand{
+		font-size: 10px;
+	}
+
+	nav a.navbar-brand span.subheader{
+		font-size: 16px;
+	}
+
+	ul.nav{
+		float: none;
+		border-top: none;
+	}
+
+	ul.nav li a{
+		font-size: 16px;
+		text-align: center;
+	}
+
+	
+	nav.contact{
+		width: 100%;
+		height: auto;
+	}
+
+	nav.contact ul{
+		float: none;
+	}
+
+	nav.contact ul li a{
+		line-height: 30px;
+		text-align: center;
+	}
+
+	.wrapper{
+		background: url(../images/banner-medium1.jpg) no-repeat center;
+		height: 318px;
+		padding: 0;
+		position: relative;
+	}
+
+	.welcome_header{
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.welcome_header h1{
+		width: 100%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		font-size: 28px;
+		line-height: 40px;
+		text-align: center;
+		margin-top: 80px;
+	}
+
+	.welcome_header h3{
+		width: 100%;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.btn_more{
+		float: none;
+		text-align: center;
+	}
+
+	.about{
+		padding: 0 20px;
+	}
+
+	.image{
+		border-bottom: 1px solid #c1c1c1;
+	}
+
+	.salon_details h3{
+		text-align: center;
+		font-family: 'Opensans';
+		font-weight: bold;
+		margin: 50px 0 20px 0;
+	}
+
+	.salon_details p{
+		text-align: center;
+		font: 16px 'Opensans';
+		margin: 0 0 50px 0;
+	}
+
+	.salon_prods{
+		height: 100px;
+		width: 100%;
+		margin: 0;
+		margin: 20px 0 0 130px;
+	}
+
+	.salon_prods img{
+		width: 50px;
+		height: 50px;
+	}
+
+	.salon_prods p.lead{
+		text-align: left;
+		font: 20px 'Opensans';
+		padding: 0;
+		margin: 0;
+		margin: 0 0 7px 100px;
+	}
+
+
+	.salon_prods p{
+		text-align: left;
+		font: bold 14px 'codelight';
+		padding: 0;
+		margin: 0;
+		margin: 0 0 0 100px;
+	}
+
+	.organic_prods{
+		width: 100%;
+		height: auto;
+		margin-top: 0;
+	}
+
+	.organic_prods h3{
+		text-align: center;
+	}
+
+	.organic_prods p.lead{
+		text-align: center;
+		margin-bottom: 70px;
+	}
+
+	.organic_img img{
+		margin-bottom: 30px;
+	}
+
+	/******* CONTACT PAGE *******/
+	.contact_area{
+		margin-bottom: 70px;
+	}
+
+	.contact_details ul.contacts{
+		margin-top: -60px;
+	}
+
+	.contact_form form{
+		margin-top: 40px;
+		text-align: center;
+	}
+
+}	
+
+/********************************MEDIA SCREEN MAX WIDTH 480PX******************************/
+@media(max-width:480px){
+
+	#contact_header{
+		height: auto;
+	}
+
+	nav.navbar .navbar-brand{
+		font-size: 16px; 
+	}
+
+	nav.contact{
+		width: 100%;
+		height: auto;
+	}
+
+	nav.contact ul{
+		float: none;
+	}
+
+	nav.contact ul li a{
+		line-height: 25px;
+		text-align: center;
+	}
+
+	.wrapper{
+		width: 100%;
+		height: 250px;
+		background: black;
+		background: url(../images/banner-small1.jpg) no-repeat center;
+
+	}
+
+	.wrapper .welcome_header{
+		margin-top: -40px;
+	}
+
+	.wrapper .welcome_header h1{
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+		margin: 80px 0 10px 0;
+		font-size: 24px;
+		text-align: center;
+		line-height: 32px;
+	}
+
+	.welcome_header h3{
+		font-size: 15px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.salon_details h3{
+		text-align: center;
+		font-family: 'Opensans';
+		font-weight: bold;
+		margin: 50px 0 20px 0;
+	}
+
+	.salon_details p{
+		text-align: center;
+		font: 16px 'Opensans';
+		margin: 0 0 50px 0;
+	}
+
+	.salon_prods{
+		height: 100px;
+		width: 100%;
+		margin: 0;
+		margin: 20px 0 0 60px;
+	}
+
+	.salon_prods p.lead{
+		text-align: left;
+		font: 20px 'Opensans';
+		padding: 0;
+		margin: 0;
+		margin: 0 0 7px 70px;
+	}
+
+	.salon_prods p{
+		text-align: left;
+		font: bold 14px 'codelight';
+		padding: 0;
+		margin: 0;
+		margin: 0 0 0 70px;
+	}
+
+	#contact_area ul li{
+		list-style: none;
+		font: 16px 'Melbourne';
+		line-height: 50px;
+		color: #bfbfbf;
+	}
+
+	/******************************** SUBPAGES STYLE 480px******************************/
+
+	.page_header{
+		padding: 30px 0 10px 0;
+	}
+	.page_header h2{
+		font-size: 22px;
+	}
+
+	.product{
+		margin: 50px 0 80px 0;
+	}
+
+	.contact_details ul.contacts{
+		margin-bottom: 40px;
+	}
+
+	.contact_details ul li{
+		list-style: none;
+		font: 18px 'Melbourne';
+		line-height: 40px;
+		color: #3d3d3d;
+	}
+
+	.contact_form form input{
+		width: 80%;
+	}
+
+	.contact_form form textarea{
+		width: 80%;
+	}
+
+}	
+
+
+
+/***************TEST SLIDE EFFECTS****************/
+
+.slide-right{
+	opacity: 0;
+	margin-right: 100px;
+	margin-left: -100px;
+}
+
+.slide-left{
+	opacity: 0;
+	margin-right: -100px;
+	margin-left: 100px;
+}
+
+.slide-right-faster{
+	opacity: 0;
+	margin-right: 200px;
+	margin-left: -200px;
+}
+
+.slide-right-fast{
+	opacity: 0;
+	margin-right: 200px;
+	margin-left: -200px;
+}
+
